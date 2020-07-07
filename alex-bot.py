@@ -1,3 +1,4 @@
+from keys import token
 import discord
 import re
 
@@ -27,4 +28,4 @@ async def on_message(message):
             await rollcall.add_reaction('👍')
 
 
-client.run('NzI5NzkzMDgxODU5Mzc1MTk4.XwOMkQ.aTJ3mb67_WO-Grx2LnI42GPL7M4')
+client.run(token)
